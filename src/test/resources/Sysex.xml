@@ -1,0 +1,13 @@
+<Sysex>
+    <Base>C:/Work/Funkdefino/Music/Sysex</Base>
+    <Input>SysExA</Input>
+    <Output>SysExB</Output>
+    <Timeout>3000</Timeout>
+    <Delay>0</Delay>
+    <Debug>true</Debug>
+    <Sequences>
+        <Sequence id="1" name = "Pailah"/>
+        <Sequence id="2" name = "Generic"/>
+        <Sequence id="3" name = "Test"/>
+    </Sequences>
+</Sysex>

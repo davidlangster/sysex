@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UnitTest>
+    <Suites>
+        <Suite id="test#1" class="com.funkdefino.sysex.FileInfoUnitTest">
+            <method>test01</method>
+        </Suite>
+        <Suite id="test#2" class="com.funkdefino.sysex.ProcessorUnitTest">
+            <method>test01</method>
+        </Suite>
+        <Suite id="test#3" class="com.funkdefino.sysex.ConvertUnitTest">
+            <method>test01</method>
+        </Suite>
+        <Suite id="test#4" class="com.funkdefino.sysex.ConfigurationUnitTest">
+            <method>test01</method>
+        </Suite>
+    </Suites>
+</UnitTest>
