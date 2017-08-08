@@ -1,6 +1,6 @@
 package com.funkdefino.sysex;
 
-import com.differitas.common.unittest.CTestCase;
+import com.funkdefino.common.unittest.CTestCase;
 import com.funkdefino.sysex.util.Convert;
 import junit.framework.Assert;
 import junit.framework.Test;

@@ -1,6 +1,6 @@
 package com.funkdefino.sysex.handlers;
 
-import com.differitas.common.io.IOUtil;
+import com.funkdefino.common.io.IOUtil;
 import com.funkdefino.sysex.IUtility;
 import com.funkdefino.sysex.util.Command;
 import com.funkdefino.sysex.util.IConstants;

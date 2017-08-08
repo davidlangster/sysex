@@ -1,6 +1,6 @@
 package com.funkdefino.sysex;
 
-import com.differitas.common.util.xml.XmlDocument;
+import com.funkdefino.common.util.xml.XmlDocument;
 import com.funkdefino.sysex.midi.MidiCommon;
 import com.funkdefino.sysex.util.Configuration;
 import com.funkdefino.sysex.util.FileInfo;

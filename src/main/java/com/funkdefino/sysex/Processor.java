@@ -1,6 +1,6 @@
 package com.funkdefino.sysex;
 
-import com.differitas.common.util.reflect.Loader;
+import com.funkdefino.common.util.reflect.Loader;
 import com.funkdefino.sysex.handlers.*;
 import com.funkdefino.sysex.util.*;
 import javax.sound.midi.*;

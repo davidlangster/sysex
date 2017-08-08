@@ -1,7 +1,7 @@
 package com.funkdefino.sysex.util;
 
-import com.differitas.common.util.xml.*;
-import com.differitas.common.util.*;
+import com.funkdefino.common.util.xml.*;
+import com.funkdefino.common.util.*;
 import java.util.*;
 
 /**

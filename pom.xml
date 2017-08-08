@@ -6,70 +6,40 @@
   <packaging>jar</packaging>
   <name>MIDI System Exclusive storage and retrieval</name>
   <version>1.0</version>
-  <profiles>
-    <profile>
-      <id>default</id>
-      <properties>
-        <org.springframework.version>3.0.5.RELEASE</org.springframework.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      </properties>
-    </profile>
-  </profiles>
+  <properties>
+    <skipTests>true</skipTests>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <version.java>1.6</version.java>
+    <version.jdom>2.0.2</version.jdom>
+    <version.junit>4.8.1</version.junit>
+    <version.spring>3.2.1.RELEASE</version.spring>
+    <version.activemq>5.7.0</version.activemq>
+    <version.slf4j>1.7.2</version.slf4j>
+    <version.logback>1.0.9</version.logback>
+    <output.directory>${project.build.directory}/lib</output.directory>
+  </properties>
   <dependencies>
     <dependency>
-      <groupId>com.differitas.system</groupId>
-      <artifactId>common</artifactId>
-      <version>1.0-EXT</version>
+      <groupId>com.funkdefino</groupId>
+      <artifactId>fcore</artifactId>
+      <version>1.0</version>
     </dependency>
     <dependency>
-      <groupId>jdom</groupId>
+      <groupId>org.jdom</groupId>
       <artifactId>jdom</artifactId>
-      <version>1.0</version>
+      <version>${version.jdom}</version>
     </dependency>
     <dependency>
       <groupId>jaxen</groupId>
       <artifactId>jaxen</artifactId>
-      <version>1.1.1</version>
-     </dependency>
-    <!--dependency>
-      <groupId>saxpath</groupId>
-      <artifactId>saxpath</artifactId>
-      <version>1.0-FCS</version>
-    </dependency-->
-    <!--dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>1.2.15</version>
+      <version>full</version>
     </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-core</artifactId>
-      <version>${org.springframework.version}</version>
-    </dependency-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>${version.junit}</version>
       <scope>test</scope>
     </dependency>
-    <!--dependency>
-      <groupId>org.apache.activemq</groupId>
-      <artifactId>activemq-all</artifactId>
-      <version>5.2.0</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-      <version>2.4</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>oracle</groupId>
-      <artifactId>ojdbc</artifactId>
-      <version>16</version>
-      <scope>test</scope>
-    </dependency-->
   </dependencies>
   <build>
     <plugins>
@@ -81,7 +51,7 @@
           <source>1.6</source>
           <target>1.6</target>
           <fork>true</fork>
-          <executable>${env.JAVA_HOME}/bin/javac.exe</executable>
+          <!--executable>${env.JAVA_HOME}/bin/javac.exe</executable-->
         </configuration>
       </plugin>
       <plugin>
